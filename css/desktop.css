@@ -1,0 +1,122 @@
+body {
+    max-width: 1200px;
+}
+
+.header-mobile {
+    display: none;
+}
+
+.hero-header-desktop {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.hero-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    max-width: 435px;
+    color: white;
+    font-size: 0.8remz;
+}
+
+.hero-header-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button {
+    background-color: rgb(10, 176, 240);
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-title-container {
+    padding: 9rem 1rem 0.75rem 2rem;
+}
+
+.hero-text-container {
+    padding: 0.5rem 1rem 1.5rem 2rem;
+}
+
+.hero-button-container {
+    padding: 1.5rem 1rem 1.5rem 2rem;
+}
+
+.features-title {
+    font-size: 2.5rem;
+}
+
+.features-container {
+    width: 30%;
+}
+
+.feature-img {
+    width: 25%;
+    padding: 1rem;
+}
+
+.download {
+    display: grid;
+    grid-template-areas:
+        'd-title d-img'
+        'd-text d-img'
+        'd-button d-img'
+    ;
+    grid-template-columns: 1fr 1fr;
+    padding: 8rem 2rem;
+}
+
+.testimonials-title {
+    font-size: 2.5rem;
+}
+
+.offers {
+    padding: 8rem 2rem;
+}
+
+.offers-title {
+    font-size: 2.5rem;
+}
+
+.offers-text-container {
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.app-buying {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-buying-title {
+    padding: 1rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-areas:
+        'foot-media foot-services foot-links foot-downloads'
+    ;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 6rem 2rem 10rem 2rem;
+}
+.footer-container {
+    padding: 0 1rem;
+}
+.footer-list-title {
+    padding: 2rem 0;
+}
+
+.footer-list-items {
+    padding: 0.5rem 0;
+}

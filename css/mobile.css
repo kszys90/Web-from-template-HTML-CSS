@@ -1,0 +1,372 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-header-desktop {
+    display: none;
+}
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+.text {
+    margin: 0;
+}
+
+.header-hamburger {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.header-hamburger-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    max-width: 85%;
+}
+
+header {
+    background-color: rgba(17, 17, 17, 0.863);
+}
+
+.hero {
+    background-color: white;
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    box-sizing: border-box
+}
+
+.hero-title {
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 1.5rem 1rem 0 1rem;
+}
+
+.hero-container {
+    width: 100%;
+    padding: 0.5rem 0;
+    box-sizing: border-box;
+}
+
+.hero-button-container {
+    padding: 1.5rem 1rem 2rem 1rem;
+    margin: 0;
+}
+
+.hero-button {
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+.hero-button:hover {
+    background-color: aquamarine;
+}
+
+.hero-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title-desc {
+    color: white;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.features {
+    background-color: white;
+}
+
+.features-title-container {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.feature-img-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.feature-img {
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.feature-img-1 {
+    background-color: rgba(40, 96, 226, 1);
+    background-image: linear-gradient(90deg, rgba(40, 96, 226, 1) 0%, rgba(128, 153, 231, 1) 77%);
+}
+
+.feature-img-2 {
+    background-color: rgba(202, 170, 24, 1);
+    background-image: linear-gradient(90deg, rgba(202, 170, 24, 1) 0%, rgba(193, 123, 61, 1) 77%);
+}
+
+.feature-img-3 {
+    background-color: rgba(125, 243, 60, 1);
+    background-image: linear-gradient(90deg, rgba(125, 243, 60, 1) 0%, rgba(41, 165, 20, 1) 77%);
+}
+
+.feature-desc-container {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.features p {
+    margin: 0;
+}
+
+.download {
+    background-color: white;
+    padding-top: 100px;
+}
+
+.download-title {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.download-desc {
+    padding: 1rem;
+}
+
+.download-text {
+    font-size: 0.8rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.download-img-container {
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 30px);
+    padding-bottom: 2rem;
+
+}
+
+.download-img {
+    max-width: 95%;
+}
+
+.download-button-container {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.download-button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(103, 103, 243);
+    color: white;
+    padding: 0.9rem 2rem;
+}
+
+.download-button:hover {
+    background-color: lightblue;
+}
+
+.testimonials {
+    color: white;
+    background: url(../images/banner/testmonial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+
+.testimonials-blue-background {
+    background-color: rgba(52, 163, 228, 0.993);
+    opacity: 0.85;
+
+}
+
+.tesimonials-container {
+    padding: 0.5rem;
+}
+
+.testimonials-text {
+    text-align: center;
+    padding: 1rem;
+}
+
+.yellow-star {
+    color: yellow;
+}
+
+.testimonials-rate-contianer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.offers {
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.offers-title-container {
+    padding-top: 2rem;
+}
+
+.offers-text-container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.offer-container {
+    padding: 1rem;
+}
+
+.offer-container-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.offer-type {
+    font-weight: bold;
+}
+
+.offers-components {
+    text-align: center;
+    padding: 1rem;
+}
+
+.offers-button {
+    background-color: white;
+    border: 1px solid rgb(47, 190, 233);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    color: rgb(47, 190, 233);
+}
+
+.offers-button:hover {
+    background-color: rgb(52, 71, 240);
+}
+
+.offer-price {
+    font-weight: bold;
+}
+
+.offer-price-1 {
+    color: blue;
+}
+
+.offer-price-2 {
+    color: orange;
+}
+
+.offer-price-3 {
+    color: green;
+}
+
+.app-buying {
+    background-color: rgb(47, 174, 233);
+    padding: 4rem 0 4rem 0;
+}
+
+.app-buying-text {
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.app-img-container-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.app-img-container {
+    padding: 0.5rem 1px 0.5rem 1px;
+    max-width: 40%;
+
+}
+
+.app-img {
+    width: 100%;
+}
+
+footer {
+    background: rgb(22, 22, 22);
+    color: white;
+}
+
+.footer-container {
+    padding: 1rem;
+}
+
+.footer-logo-media-container {
+    display: flex;
+}
+
+.footer-logo {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.footer-text {
+    padding-bottom: 1.5rem;
+}
+
+.footer-list-title {
+    text-align: left;
+    padding: 1rem;
+}
+
+.footer-list-items {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+}
+
+.footer-logo-media {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    background-color: rgba(129, 127, 127, 0.171);
+    border-radius: 50%;
+}
+
+.footer-container--last {
+    padding-bottom: 4rem;
+}
+
+.footer-copyrights {
+    padding: 1rem;
+    background-color: black;
+}
+
+.footer-copyrights-text {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.footer-copyrights--blue {
+    color: rgb(127, 127, 241);
+}
